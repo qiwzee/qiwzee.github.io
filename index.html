@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Name - Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333; /* Default text color */
+            background-color: #fff; /* Default background color */
+        }
+        h1 {
+            margin-bottom: 10px;
+        }
+        h2 {
+            margin-top: 5px;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section-header {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .section-content {
+            margin-top: 10px;
+        }
+
+        /* Dark mode styles */
+        body.dark-mode {
+            color: #fff;
+            background-color: #333;
+        }
+        .section-header.dark-mode {
+            color: #fff;
+        }
+        .section-content.dark-mode {
+            color: #ccc;
+        }
+    </style>
+    <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
+</head>
+<body>
+    <header>
+        <h1>Your Name</h1>
+        <p>Email: your.email@example.com | Phone: (123) 456-7890 | Website: www.yourwebsite.com</p>
+    </header>
+
+    <section class="section">
+        <h2 class="section-header">Summary</h2>
+        <p class="section-content">
+            Write a brief summary of your skills, experiences, and career goals.
+        </p>
+    </section>
+
+    <section class="section">
+        <h2 class="section-header">Education</h2>
+        <p class="section-content">
+            <strong>University Name</strong> - Degree, Major (Graduation Year)<br>
+            Additional details about your education, honors, and achievements.
+        </p>
+    </section>
+
+    <section class="section">
+        <h2 class="section-header">Experience</h2>
+        <p class="section-content">
+            <strong>Job Title</strong> - Company Name (Start Date - End Date)<br>
+            Description of your responsibilities and achievements in this role.
+        </p>
+        <!-- Add more experiences as needed -->
+    </section>
+
+    <section class="section">
+        <h2 class="section-header">Skills</h2>
+        <p class="section-content">
+            List your relevant skills, such as programming languages, software, tools, etc.
+        </p>
+    </section>
+
+    <section class="section">
+        <h2 class="section-header">Projects</h2>
+        <p class="section-content">
+            <strong>Project Name</strong><br>
+            Description of the project, technologies used, and your contributions.
+        </p>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <section class="section">
+        <h2 class="section-header">Certifications</h2>
+        <p class="section-content">
+            <strong>Certification Name</strong> - Issuing Organization (Completion Date)<br>
+            Additional details about the certification and its relevance.
+        </p>
+        <!-- Add more certifications as needed -->
+    </section>
+
+    <section class="section">
+        <h2 class="section-header">Languages</h2>
+        <p class="section-content">
+            List the languages you speak and your proficiency level.
+        </p>
+    </section>
+
+    <section class="section">
+        <h2 class="section-header">Interests</h2>
+        <p class="section-content">
+            Mention your hobbies and interests.
+        </p>
+    </section>
+
+    
+
+    <script>
+        // Function to toggle dark mode
+        function toggleDarkMode() {
+            const body = document.body;
+            body.classList.toggle('dark-mode');
+        }
+    </script>
+</body>
+</html>
